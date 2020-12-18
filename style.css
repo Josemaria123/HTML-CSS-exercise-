@@ -1,0 +1,104 @@
+header, section, footer, aside,nav, article {
+    display: block;
+}
+
+.contenedor {
+    width: 960px;
+    border: 2px solid black;
+    margin: 10px auto;
+    
+}
+
+
+
+
+/* Header */
+.header {
+    text-align: left;
+    padding: 10px;
+    background-color: rgb(255, 255, 121);
+}
+
+.header h1{
+    text-align: left;
+}
+
+
+
+
+/* Navegacion */
+.navegacion {
+    padding: 5px;
+    text-align: left;
+    background-color:rgb(165, 164, 164);
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+
+}
+
+.navegacion li {
+    list-style: none;
+    font: bold 14px verdana;
+    padding: 5px;
+    display: inline-block;
+    
+    
+}
+
+.navegacion li a:first-child {
+    border-right: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+
+.navegacion li a:hover {
+    
+    text-decoration: underline black 3px;
+}
+
+/* Panel Principal */
+.panel-principal {
+    margin: 20px;
+    width: 60%;
+    float: left;
+    
+
+}
+
+.articulo {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    background-color: yellow
+    
+}
+
+
+.seccion-aside {
+    background-color: yellow;
+    border: 1px solid black;
+    float:left;
+    margin: 38px 0;
+    width: 30%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* Footer */
+.pie{
+    clear: both;/*Con esto vuelvo a la normalidad el float de los bloques y todo esta dentro del html*/
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+
+
